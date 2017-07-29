@@ -1,0 +1,119 @@
+@page {
+  margin: 0.5cm 1cm;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Loma, 'Times New Roman', Times, serif;
+  font-size: 11pt;
+  background-color: #FFFFFF;
+  line-height: 1.9;
+  color: #00001A;
+}
+html > body.cke-body {
+  padding: 5px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  font-size: 1.2em;
+}
+.splitpage {
+  page-break-before: always;
+  margin: 0;
+}
+body > table {
+  margin: 0 auto;
+  width: 800px;
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+.detail td, .border, table, td, th {
+  border-color: #000;
+  border-width: 1px;
+}
+.detail td, .border {
+  border-style: none solid solid solid;
+}
+.border.top {
+  border-style: solid;
+}
+th {
+  background-color: #666666;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  border-style: solid;
+}
+td {
+  vertical-align: top;
+  text-align: left;
+}
+.detail td,
+.detail th {
+  vertical-align: middle;
+}
+.label {
+  background-color: #DDD;
+}
+.amount, .price, .quantity, .discount, .item {
+  width: 15%;
+}
+table tr > td.amount, table tr > td.price {
+  text-align: right;
+}
+table tr > td.description {
+  text-align: left;
+}
+table tr > td.quantity, table tr > td.item, table tr > td.discount {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.bottom {
+  vertical-align: bottom;
+}
+.bold {
+  font-weight: bold;
+}
+[class^="line"] {
+  display: inline-block;
+  border-bottom: 1px dashed #BBB;
+  min-width: 50px;
+  padding: 0 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.line1 {
+  min-width: 20%;
+}
+.line2 {
+  min-width: 30%;
+}
+.line3 {
+  min-width: 40%;
+}
+.line4 {
+  min-width: 50%;
+}
+.line5 {
+  min-width: 150px;
+}
+.line6 {
+  display: inline;
+}
